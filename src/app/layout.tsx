@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "True Feedback",
   description: "Anonymous feedback app",
+  icons: {
+    icon: "/image.png",
+  },
 };
 
 export default function RootLayout({

@@ -6,7 +6,12 @@ interface RootLayoutProps {
 
 export const metadata={
   title:'True Feedback',
-  Description:'Anonymous feedback app'
+  Description:'Anonymous feedback app',
+    icons: {
+    icon: "/image.png",
+    shortcut: "/image.png",
+    apple: "/image.png",
+  },
 }
 
 export default async function RootLayout({ children }: RootLayoutProps) {
